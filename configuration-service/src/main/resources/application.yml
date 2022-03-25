@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: configuration-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/IamStivgo/parcial-dh-back
+
+server:
+  port: 8888
